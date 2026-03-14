@@ -116,15 +116,15 @@
         /* ---- GALLERY (original masonry) ---- */
         .gallery {
             column-count: 2;
-            column-gap: 1.25rem;
+            column-gap: 2.5rem;
             max-width: 1400px;
             margin: 0 auto;
-            padding: 4rem 1.25rem 6rem;
+            padding: 4rem 2rem 6rem;
         }
 
         .gallery-item {
             break-inside: avoid;
-            margin-bottom: 1.25rem;
+            margin-bottom: 2.5rem;
             position: relative;
             overflow: hidden;
             border-radius: 2px;
@@ -150,8 +150,8 @@
 
         /* Tier 1 — hero pieces: more space + slightly larger */
         .tier1 {
-            margin-bottom: 2.5rem;
-            margin-top: 1.5rem;
+            margin-bottom: 3.5rem;
+            margin-top: 2rem;
             transform: scale(1.03);
             transform-origin: center;
             z-index: 1;
@@ -160,8 +160,8 @@
 
         /* Tier 2 — supporting pieces: a bit more space */
         .tier2 {
-            margin-bottom: 2rem;
-            margin-top: 1rem;
+            margin-bottom: 3rem;
+            margin-top: 1.5rem;
             transform: scale(1.015);
             transform-origin: center;
             z-index: 1;
@@ -229,8 +229,8 @@
 
         /* ---- RESPONSIVE ---- */
         @media (max-width: 768px) {
-            .gallery { column-count: 1; padding: 2rem 0.75rem; }
-            .gallery-item { margin-bottom: 0.75rem; }
+            .gallery { column-count: 1; padding: 2rem 1rem; }
+            .gallery-item { margin-bottom: 2rem; }
             header { height: 85vh; }
             .lb-nav { display: none; }
         }
